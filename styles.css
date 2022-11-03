@@ -1,0 +1,40 @@
+body{
+  background-color: #B2B2B2;
+  text-align: center;
+  user-select: none;
+}
+.java{
+  background-color: white;
+}
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+}
+.frame{
+  background-color:black ;
+
+  height:10rem;
+  width: 25rem;
+  border: 3rem solid;
+  border-color: white;
+  border-radius: 2rem;
+  border-style: double;
+  margin-left: 24rem;
+  position: relative;
+  cursor: crosshair;
+
+
+}
+.clock{
+  color:white;
+  position: absolute;
+  top: 4rem;
+  left:3rem;
+  font-size: 3rem;
+}
+h1{
+  margin-top: 10rem;
+
+}
